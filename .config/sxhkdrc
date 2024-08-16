@@ -1,0 +1,87 @@
+ctrl + space 
+	brave
+
+alt + n
+	nitrogen
+	
+alt + v 
+	blueman-manager
+    
+super + s
+  	spotify
+
+super + Return
+	alacritty
+
+super + k
+	rofi_launcher
+
+super + {f,e}
+	{thunar,geany}
+
+ctrl + alt + m
+	bspmusic
+
+super + t 
+	telegram-desktop
+
+super + h
+  bspwinmask
+
+
+
+super + l
+    betterlockscreen --lock dim --off 4
+    
+Print
+	bspscreenshot --area
+
+XF86Audio{RaiseVolume,LowerVolume}
+	bspvolume{ --inc, --dec}
+
+XF86Audio{Next,Prev,Play,Stop}
+	mpc {next,prev,toggle,stop}
+
+super + {_,shift + }w
+	bspc node -{c,k}
+
+
+super + alt + {q,r}
+	bspc {quit,wm -r}
+	
+
+super + {_,alt + }{1-8}
+	bspc {desktop -f,node -d} '^{1-8}' '--follow'
+
+
+
+# Switch to the previous workspace
+super + shift + Left
+    bspc desktop -f prev
+
+# Switch to the next workspace
+super + shift + Right
+    bspc desktop -f next
+
+
+
+
+# Expanding windows
+super + alt + {Left,Right,Up,Down}
+	bspc node -z {left -20 0,right 20 0,top 0 -20,bottom 0 20}
+	
+# Shrinking windows
+super + shift + {Left,Right,Up,Down}
+	bspc node -z {left 20 0,right -20 0,top 0 20,bottom 0 -20}
+	
+# Brighness control
+XF86MonBrightness{Up,Down}
+	bspbrightness{ --inc, --dec}
+	
+
+
+alt + f
+    bspc node -t "~"fullscreen
+
+super + space
+    bspc node -t "~"{floating,tiled}
