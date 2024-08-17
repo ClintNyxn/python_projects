@@ -1,14 +1,15 @@
-djd# Setup
+# Setup
 
 1. Initial software
 ```
 yay -S debugedit fish libinput-gestures
-yay -Syu
 yay -S brave
 ```
-install fish first, otherwise alacritty wont work. 
-
-2. Config Files
+Restart the system
+```
+yay -Syu
+```
+.config files while update is taking place. 
 
 3. Change Shell
 ```
