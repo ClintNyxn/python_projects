@@ -1,4 +1,4 @@
-# Setup
+djd# Setup
 
 1. Initial software
 ```
@@ -17,7 +17,7 @@ echo $SHELL
 ```
 output for echo should be */bin/fish*.
 
-4. Gestures
+> Gestures
 ```
 cp /etc/libinput-gestures.conf ~/.config/libinput-gestures.conf
 sudo gpasswd -a $USER input
