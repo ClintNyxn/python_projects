@@ -17,7 +17,7 @@ echo $SHELL
 ```
 output for echo should be */bin/fish*.
 
-> Gestures
+4. Gestures
 ```
 cp /etc/libinput-gestures.conf ~/.config/libinput-gestures.conf
 sudo gpasswd -a $USER input
