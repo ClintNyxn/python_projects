@@ -70,4 +70,4 @@ bspfloat &
 xmodmap .Xmodmap &
 bash ~/.config/polybar/launch.sh --forest &
 libinput-gestures-setup restart &
-xinput --set-prop "ELAN07D2:00 04F3:321A Touchpad" "libinput Accel Speed" 0.3 &
+xinput --set-prop "ELAN07D2:00 04F3:321A Touchpad" "libinput Accel Speed" 0.25 &
