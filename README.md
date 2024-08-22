@@ -43,6 +43,7 @@ yay -S telegram-desktop zathura lxappearance unimatrix cava neovim ranger locate
 betterlockscreen -u Pictures/wallpapers/mountain.png
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 yay -R firefox
+setxbmap de us
 ```
 
 8. Polybar
