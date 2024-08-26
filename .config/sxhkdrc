@@ -6,7 +6,13 @@ alt + n
 	
 alt + v 
 	blueman-manager
-    
+
+super + Print
+  ffmpeg -f pulse -i default -f x11grab -framerate 30 -video_size $(slop -f "%wx%h") -i :0.0+$(slop -f "%x,%y") ~/Videos/recording_$(date +%F_%T).mp4
+
+super + shift + Print
+    pkill -INT ffmpeg  
+
 super + s
   	spotify
 
@@ -28,7 +34,8 @@ super + t
 super + h
   bspwinmask
 
-
+super + p 
+  bspcolorpicker
 
 super + l
     betterlockscreen --lock dim --off 4
