@@ -64,6 +64,7 @@ sudo chmod a+wr /opt/spotify
 sudo chmod a+wr /opt/spotify/Apps -R
 
 yay -S spicetify-cli
+curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh
 
 nvim .config/spicetify/config-xpui.ini
 it should be 
