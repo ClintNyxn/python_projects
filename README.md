@@ -46,17 +46,7 @@ yay -R firefox
 setxbmap de us
 ```
 
-8. Polybar
-```
-git clone --depth=1 https://github.com/adi1090x/polybar-themes.git
-
-cd polybar-themes
-chmod +x setup.sh
-./setup.sh
-bash ~/.config/polybar/launch.sh --forest
-```
-
-9. Spicetify
+8. Spicetify
 ```
 yay -S spotify
 
