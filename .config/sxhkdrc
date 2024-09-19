@@ -1,6 +1,9 @@
 ctrl + space 
 	brave
 
+super + shift + s 
+  blender
+
 alt + n
 	nitrogen
 	
@@ -48,6 +51,9 @@ XF86Audio{RaiseVolume,LowerVolume}
 
 XF86Audio{Next,Prev,Play,Stop}
 	mpc {next,prev,toggle,stop}
+
+XF86Audio{Mute,MicMute}
+	bspvolume{ --toggle, --toggle-mic}
 
 super + {_,shift + }w
 	bspc node -{c,k}
