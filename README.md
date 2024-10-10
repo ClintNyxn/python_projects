@@ -36,8 +36,10 @@ xinput --set-prop "ELAN07D2:00 04F3:321A Touchpad" "libinput Accel Speed" 0.3
 brave settings
 brave shortcuts
 brave extentions - vpn yt-enhancer
+![image](https://github.com/user-attachments/assets/b7c514af-d543-46cf-8c8e-3987904dbd6d)
 
-7. Misc Stuff
+
+8. Misc Stuff
 ```
 yay -S telegram-desktop zathura lxappearance unimatrix cava neovim ranger locate
 betterlockscreen -u Pictures/wallpapers/mountain.png
