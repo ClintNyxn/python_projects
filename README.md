@@ -62,6 +62,8 @@ spotify_path = /home/nyxn/.config/spotify
 
 spicetify backup apply      
 spicetify apply
+![image](https://github.com/user-attachments/assets/cf0592dc-67cd-4f17-9c1d-6261f982a42d)
+
 ```
 
 10. change font, and theme of geany
