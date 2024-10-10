@@ -1,0 +1,9 @@
+[03:36:43 2024-09-11] FETCHING Version 2.38.3
+[03:36:43 2024-09-11] CREATING /home/nyxn/.spicetify
+[03:36:43 2024-09-11] DOWNLOADING https://github.com/spicetify/cli/releases/download/v2.38.3/spicetify-2.38.3-linux-amd64.tar.gz
+[03:36:46 2024-09-11] EXTRACTING /home/nyxn/.spicetify/spicetify.tar.gz
+[03:36:46 2024-09-11] SETTING EXECUTABLE PERMISSIONS TO /home/nyxn/.spicetify/spicetify
+[03:36:46 2024-09-11] REMOVING /home/nyxn/.spicetify/spicetify.tar.gz
+[03:36:46 2024-09-11] APPENDING /home/nyxn/.spicetify to PATH in /home/nyxn/.zshrc
+[03:36:46 2024-09-11] spicetify v2.38.3 was installed successfully to /home/nyxn/.spicetify
+[03:36:46 2024-09-11] Run 'spicetify --help' to get started
