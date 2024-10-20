@@ -40,6 +40,9 @@ super + h
 super + p 
   bspcolorpicker
 
+super + alt + space + x 
+  poweroff
+
 super + l
     betterlockscreen --lock dim --off 4
     
