@@ -9,7 +9,7 @@ Restart the system
 ```
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
-sudo pacman -Syu archlinux-keyring
+sudo pacman -Sy archlinux-keyring
 sudo pacman -Scc
 yay -Syyu
 ```
