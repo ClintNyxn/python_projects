@@ -9,7 +9,8 @@ Restart the system
 ```
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
-sudo rm -rf /var/cache/pacman/pkg/*
+sudo pacman -Syu archlinux-keyring
+sudo pacman -Scc
 yay -Syyu
 ```
 .config files while update is taking place. 
