@@ -7,7 +7,10 @@ yay -S brave
 ```
 Restart the system
 ```
-yay -Syu
+sudo pacman-key --init
+sudo pacman-key --populate archlinux
+sudo rm -rf /var/cache/pacman/pkg/*
+yay -Syyu
 ```
 .config files while update is taking place. 
 
