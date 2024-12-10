@@ -10,6 +10,9 @@ alt + n
 alt + v 
 	blueman-manager
 
+super + shift + m 
+  prime-run sklauncher
+
 super + Print
   ffmpeg -f pulse -i default -f x11grab -framerate 30 -video_size $(slop -f "%wx%h") -i :0.0+$(slop -f "%x,%y") ~/Videos/recording_$(date +%F_%T).mp4
 
@@ -24,6 +27,11 @@ super + Return
 
 super + k
 	rofi_launcher
+
+157
+  notepad
+
+
 
 super + {f,e}
 	{thunar,geany}
@@ -40,7 +48,7 @@ super + h
 super + p 
   bspcolorpicker
 
-super + alt + space + x 
+super + alt + space + ctrl + shift + Print
   poweroff
 
 super + l
@@ -51,11 +59,6 @@ Print
 
 XF86Audio{RaiseVolume,LowerVolume}
 	bspvolume{ --inc, --dec}
-
-XF86Audio{Next,Prev,Play,Stop}
-	mpc {next,prev,toggle,stop}
-
-
 
 super + {_,shift + }w
 	bspc node -{c,k}

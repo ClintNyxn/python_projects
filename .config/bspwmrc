@@ -29,7 +29,7 @@ bspc config split_ratio "$BSPWM_SRATIO"
 
 default_workspaces() {
 	for monitor in `xrandr -q | grep -w 'connected' | cut -d' ' -f1`; do
-		bspc monitor "$monitor" -d '雷' '雷' '雷' '雷'
+		bspc monitor "$monitor" -d '+' '+' '+' '+'
 	done
 }
 default_workspaces
