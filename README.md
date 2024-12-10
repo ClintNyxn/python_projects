@@ -5,7 +5,7 @@
 yay -S debugedit fish libinput-gestures
 yay -S brave
 ```
-Restart the system
+2. Restart the system
 ```
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
@@ -13,16 +13,16 @@ sudo pacman -Sy archlinux-keyring
 sudo pacman -Scc
 yay -Syyu
 ```
-.config files while update is taking place. 
+3. config files while update is taking place. 
 
-3. Change Shell
+4. Change Shell
 ```
 sudo chsh -s /usr/bin/fish
 echo $SHELL
 ```
 output for echo should be */bin/fish*.
 
-4. Gestures
+5.  Gestures
 ```
 cp /etc/libinput-gestures.conf ~/.config/libinput-gestures.conf
 sudo gpasswd -a $USER input
@@ -34,9 +34,9 @@ libinput-gestures-setup autostart
 xinput --set-prop "ELAN07D2:00 04F3:321A Touchpad" "libinput Accel Speed" 0.3
 ```
 
-5. Download - wallpaper, pass/bookmark, polybar files. 
+6. Download - wallpaper, pass/bookmark, polybar files. 
 
-6. Brave Stuff
+7. Brave Stuff
 brave settings
 brave shortcuts
 brave extentions - vpn yt-enhancer
