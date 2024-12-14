@@ -85,4 +85,4 @@ spicetify apply
     sudo systemctl start optimus-manager
 
    RESTART 
-    ```
+    
