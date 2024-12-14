@@ -80,6 +80,7 @@ spicetify apply
     ```
     sudo pacman -S nvidia
     sudo pacman -S optimus-manager
+    yay -S nvidia-prime
 
     sudo systemctl enable optimus-manager
     sudo systemctl start optimus-manager
