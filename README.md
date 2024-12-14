@@ -75,3 +75,14 @@ spicetify apply
 
 10. change font, and theme of geany
 11. betterdiscord
+
+12. minecraft
+    ```
+    sudo pacman -S nvidia
+    sudo pacman -S optimus-manager
+
+    sudo systemctl enable optimus-manager
+    sudo systemctl start optimus-manager
+
+   RESTART 
+    ```
