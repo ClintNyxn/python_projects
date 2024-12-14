@@ -56,6 +56,8 @@ setxbmap de us
 ```
 yay -S spotify
 
+LOG INTO THE ACCOUNT
+
 sudo chmod a+wr /opt/spotify
 sudo chmod a+wr /opt/spotify/Apps -R
 
