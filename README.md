@@ -78,8 +78,8 @@ spicetify apply
 
 12. minecraft
     ```
-    sudo pacman -S nvidia
-    sudo pacman -S optimus-manager
+    yay -S nvidia
+    yay -S optimus-manager
     yay -S nvidia-prime
 
     sudo systemctl enable optimus-manager
