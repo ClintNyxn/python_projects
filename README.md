@@ -35,7 +35,7 @@ libinput-gestures-setup autostart
 ```
 xinput --set-prop "ELAN07D2:00 04F3:321A Touchpad" "libinput Accel Speed" 0.3
 
-echo "Xcursor.theme: <cursor-name>" >> ~/.Xresources
+echo "Xcursor.theme: elementary" >> ~/.Xresources
 
 xrdb ~/.Xresources
 ```
