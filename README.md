@@ -22,7 +22,7 @@ echo $SHELL
 ```
 output for echo should be */bin/fish*.
 
-5.  Gestures
+5.  Gestures and touchpad
 ```
 cp /etc/libinput-gestures.conf ~/.config/libinput-gestures.conf
 sudo gpasswd -a $USER input
@@ -30,8 +30,14 @@ chmod 644 ~/.config/libinput-gestures.conf
 libinput-gestures-setup stop
 libinput-gestures-setup start
 libinput-gestures-setup autostart
+```
 
+```
 xinput --set-prop "ELAN07D2:00 04F3:321A Touchpad" "libinput Accel Speed" 0.3
+
+echo "Xcursor.theme: <cursor-name>" >> ~/.Xresources
+
+xrdb ~/.Xresources
 ```
 
 6. Download - wallpaper, pass/bookmark, polybar files. 
