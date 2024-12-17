@@ -2,7 +2,7 @@
 
 1. Initial software
 ```
-yay -S debugedit fish libinput-gestures
+yay -S debugedit fish libinput-gestures calcurse
 yay -S brave
 ```
 2. Restart the system
@@ -45,7 +45,7 @@ brave extentions - vpn yt-enhancer
 
 8. Misc Stuff
 ```
-yay -S telegram-desktop zathura lxappearance unimatrix cava neovim ranger locate
+yay -S telegram-desktop lxappearance neovim
 betterlockscreen -u Pictures/wallpapers/mountain.png
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 yay -R firefox
