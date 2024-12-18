@@ -1,4 +1,4 @@
-# Setup
+Hello, this is my bspwm configuration. 
 
 1. Initial software
 ```
