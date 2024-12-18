@@ -3,7 +3,10 @@
 1. Initial software
 ```
 yay -S debugedit fish libinput-gestures calcurse
-yay -S brave
+
+git clone https://aur.archlinux.org/brave-bin.git
+cd brave-bin
+makepkg -si
 ```
 2. Restart the system
 ```
