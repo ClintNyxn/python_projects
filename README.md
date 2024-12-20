@@ -54,7 +54,6 @@ brave extentions - vpn yt-enhancer
 
 8. Misc Stuff
 ```
-yay -S telegram-desktop lxappearance neovim
 betterlockscreen -u Pictures/wallpapers/mountain.png
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 yay -R firefox
